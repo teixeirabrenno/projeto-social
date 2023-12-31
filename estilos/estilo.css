@@ -24,6 +24,7 @@ main {
     position: relative;
     height: 100vh;
     
+    
 }
 
 
@@ -35,7 +36,6 @@ section#celular {
 
     height: 627px;
     width: 311px;
-    background: blue;
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     
@@ -47,5 +47,20 @@ iframe#tela{
     left: 22px;
     height: 471px;
     width: 267px;
+
+}
+
+section#midias-sociais {
+    text-align: right;
+    padding-top: 50px;
+
+}
+
+section#midias-sociais img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px black;
 
 }
