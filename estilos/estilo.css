@@ -62,5 +62,14 @@ section#midias-sociais img {
     margin: 10px;
     border-radius: 100px;
     box-shadow: 2px 2px 10px black;
+    box-sizing: border-box;
+
+}
+
+section#midias-sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 4px 4px 12px black;
+    transition: transform 300ms, border 100ms;
 
 }
